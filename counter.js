@@ -1,17 +1,67 @@
-let count = 0;
+let counterElement = document.getElementById("counterValue");
 
+function onDecrement() {
+    let previousValue = counterElement.textContent;
+    let updateCounterValue = parseInt(previousValue) - 1
+    console.log(updateCounterValue)
 
-document.getElementById("decreasebtn").onclick = function(){
-    count-=1;
-    document.getElementById("count").innerHTML = count;
-    
+    if(updateCounterValue < 0){
+        counterElement.style.color = "red"
+    }
+
+    else if(updateCounterValue > 0){
+        counterElement.style.color = "green"
+    }
+
+    else {
+        counterElement.style.color = "black"
+    }
+
+    counterElement.textContent = updateCounterValue
+
 }
-document.getElementById("resetbtn").onclick = function(){
-    count=0;
-    document.getElementById("count").innerHTML = count;
+function onReset() {
+    counterElement.textContent = 0
+    counterElement.style.color = "black"
 }
-document.getElementById("increasebtn").onclick = function(){
-    count+=1;
-    document.getElementById("count").innerHTML = count;
-    
+
+function onIncrement(){
+    let previousValue = counterElement.textContent
+    let updateCounterValue = parseInt(previousValue) + 1
+
+    if(updateCounterValue < 0) {
+        counterElement.style.color = "red"
+
+    }
+
+    else if(updateCounterValue > 0) {
+        counterElement.style.color = "green"
+    }
+
+    else{
+        counterElement.style.color = "black"
+    }
+
+    counterElement.textContent = updateCounterValue
+
+}
+function onIncrement(){
+    let previousValue = counterElement.textContent
+    let updateCounterValue = parseInt(previousValue) + 1
+
+    if(updateCounterValue < 0) {
+        counterElement.style.color = "red"
+
+    }
+
+    else if(updateCounterValue > 0) {
+        counterElement.style.color = "green"
+    }
+
+    else{
+        counterElement.style.color = "black"
+    }
+
+    counterElement.textContent = updateCounterValue
+
 }
