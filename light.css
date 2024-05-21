@@ -1,0 +1,42 @@
+.bg-container{
+    background-color: #86d2f2;
+    height: 200vh;
+    background-size: cover;
+}
+.heading{
+    font-weight: bold;
+    text-align: center;
+    pad: 10px;
+}
+.responding-bulb{
+    background-color: #4b5069;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    margin: 15px;
+    text-align: center;
+
+}
+.traffic-responding{
+    background-color: #1f1d41;
+    width: 90px;
+    height: 255px;
+    border-radius: 25px;
+
+}
+.button{
+    margin: 19px;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+    background-color: #1f1d41;
+    font-family: Roboto;
+    border-width: 0px;
+    height: 40px;
+    width: 70px;
+}
+.bg-cont{
+    background-color: white;
+    width: 200px;
+}
+

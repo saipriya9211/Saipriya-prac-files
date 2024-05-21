@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=", initial-scale=1.0">
+    <title>ColorPicker</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"
+    ></script>   
+    </head>
+<body>
+    <div id="colorpickercontainer" class="container text-center d-flex flex-column justify-content-center">
+        <div class="heading">
+            <h1>Color Picker</h1>
+        </div>
+        <div class="colors d-flex flex-row justify-content-center">
+            <button onclick="button1()" id="button1" style="background-color: #e0e0e0;padding: 2%; margin: 10px;">#e0e0e0</button> <br>
+            <button onclick="button2()" id="button2" style="background-color: #6fcf97;padding: 2%; margin: 10px;">#6fcf97</button> <br>
+            <button onclick="button3()" id="button3" style="background-color: #56ccf2;padding: 2%; margin: 10px;">#56ccf2</button> <br>
+            <button onclick="button4()" id="button4" style="background-color: #bb6bd9;padding: 2%; margin: 10px;">#bb6bd9</button> 
+        </div> <br>
+        <h1 style="background-color: black; color: white; width: fit-content; padding: 3%; margin: 10px; margin-left: 100px;">Background Color : <span style="color: #56ccf2 ; ">#fffff</span></h1>
+        <p>Try clicking on one of the colors above to change the background color of this page</p>
+    </div>
+    <script src="./picker.js"></script>
+</body>
+</html>
