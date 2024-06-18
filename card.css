@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.greeting-card-container {
+  background-image: url("https://th.bing.com/th/id/R.f063cd3905a5d42ee92a1f3d2487bbe5?rik=0IuBD2wCsRmnAA&riu=http%3a%2f%2fthumbs.dreamstime.com%2fz%2fgold-gift-box-abstract-gold-background-17191291.jpg&ehk=9zsN7oOhqM0IQ0ACtRapc6ZWzSVevdadT9WeCO4q2m8%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  width: 100%;
+}
+
+.greet {
+  color: #1f2933;
+  font-family: "DM Sans";
+  font-weight: bold;
+}
+
+.heading {
+  color: #1f2933;
+  font-family: "Playfair Display";
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.new-year {
+  font-size: 75px;
+}
+
+.greet-text-container {
+  text-align: center;
+  height: 80vh;
+}
+
+.greet-text {
+  color: #323f4b;
+  font-family: "Roboto";
+  font-size: 30px;
+}
